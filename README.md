@@ -1,5 +1,6 @@
 # MinimalSpeechAudioTest
 A minimal iOS app example showing that AVSpeechSynthesizer does not fully handle AVAudioSession
+
 Related post on the Apple developer forum: https://developer.apple.com/forums/thread/759553
 
 # Description of Problem
