@@ -1,5 +1,6 @@
 # MinimalSpeechAudioTest
 A minimal iOS app example showing that AVSpeechSynthesizer does not fully handle AVAudioSession
+Related post on the Apple developer forum: https://developer.apple.com/forums/thread/759553
 
 # Description of Problem
 When using AVSpeechSynthesizer to play text to speech, there is some problem with deactivating the apps AVAudioSession. It is unclear if AVSpeechSynthesizer attempts to do so on its own, or if the developer is supposed to do so. Without attempting to deactivate the session as the developer, the AVAudioSession is not deactivated as I would expect (other App's ducked or interrupted audio are not resumed correctly). When attempting to deactivate the session as the developer, an exception is thrown, and updates in the UI are temporarily paused, but other App's audio are resumed as expected.
