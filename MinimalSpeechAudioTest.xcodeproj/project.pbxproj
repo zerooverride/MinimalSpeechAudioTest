@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43305EE12C59C73B008028B3 /* Hello_planet_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43305EE02C59C73B008028B3 /* Hello_planet_1.wav */; };
 		4348A97C2C435AE60087D4B4 /* MinimalSpeechAudioTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A97B2C435AE60087D4B4 /* MinimalSpeechAudioTestApp.swift */; };
 		4348A97E2C435AE60087D4B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348A97D2C435AE60087D4B4 /* ContentView.swift */; };
 		4348A9802C435AE80087D4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4348A97F2C435AE80087D4B4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43305EE02C59C73B008028B3 /* Hello_planet_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hello_planet_1.wav; sourceTree = "<group>"; };
 		4348A9782C435AE60087D4B4 /* MinimalSpeechAudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalSpeechAudioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4348A97B2C435AE60087D4B4 /* MinimalSpeechAudioTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalSpeechAudioTestApp.swift; sourceTree = "<group>"; };
 		4348A97D2C435AE60087D4B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		4348A96F2C435AE60087D4B4 = {
 			isa = PBXGroup;
 			children = (
+				43305EE02C59C73B008028B3 /* Hello_planet_1.wav */,
 				4348A97A2C435AE60087D4B4 /* MinimalSpeechAudioTest */,
 				4348A9792C435AE60087D4B4 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43305EE12C59C73B008028B3 /* Hello_planet_1.wav in Resources */,
 				4348A9832C435AE80087D4B4 /* Preview Assets.xcassets in Resources */,
 				4348A9802C435AE80087D4B4 /* Assets.xcassets in Resources */,
 			);
